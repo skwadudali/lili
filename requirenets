@@ -11,3 +11,8 @@ arabic-reshaper \
 python-bidi \
 spidev \
 numpy
+
+
+pip install openai-whisper deep-translator gtts sounddevice scipy
+pip install pillow adafruit-blinka adafruit-circuitpython-rgb-display
+pip install arabic-reshaper python-bidi spidev numpy
