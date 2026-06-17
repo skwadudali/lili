@@ -1,0 +1,13 @@
+pip install \
+openai-whisper \
+googletrans==4.0.0rc1 \
+gtts \
+sounddevice \
+scipy \
+pillow \
+adafruit-blinka \
+adafruit-circuitpython-rgb-display \
+arabic-reshaper \
+python-bidi \
+spidev \
+numpy
