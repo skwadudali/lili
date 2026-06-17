@@ -32,3 +32,16 @@ build-essential \
 libgpiod-dev
 
 pip install --no-cache-dir lgpio
+
+
+sudo apt update
+sudo apt install -y python3-lgpio python3-rpi-lgpio
+
+python3 -m venv --system-site-packages translator-env
+source translator-env/bin/activate
+
+  pip install --upgrade pip
+
+pip install openai-whisper deep-translator gtts sounddevice scipy
+pip install pillow adafruit-blinka adafruit-circuitpython-rgb-display
+pip install arabic-reshaper python-bidi spidev numpy
