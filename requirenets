@@ -16,3 +16,7 @@ numpy
 pip install openai-whisper deep-translator gtts sounddevice scipy
 pip install pillow adafruit-blinka adafruit-circuitpython-rgb-display
 pip install arabic-reshaper python-bidi spidev numpy
+sudo apt install -y \
+python3-rpi-lgpio \
+python3-gpiozero \
+python3-libgpiod
